@@ -1,0 +1,7 @@
+
+config 'mesh' 'bat0'
+	option 'interfaces' 'adhoc0'
+	option 'aggregated_ogms'
+	option 'ap_isolation'
+	option 'gw_mode' 'server 20mbit/8mbit'
+

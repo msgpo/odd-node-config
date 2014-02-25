@@ -1,0 +1,5 @@
+#!/bin/sh
+
+ifconfig l2tp0 up
+batctl if add l2tp0
+ifconfig bat0 up

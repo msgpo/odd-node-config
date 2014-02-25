@@ -1,0 +1,8 @@
+config broker 'main'
+	list address '199.175.49.22:8942'
+	option uuid '3b1bda83-6ec2-467f-9767-470b6bb7eea5'
+	option interface 'l2tp0'
+	option limit_bw_down '100000kbit'
+	option limit_bw_up '100000kbit'
+	option hook_script '/etc/init.d/tunnel_up'
+                                                
